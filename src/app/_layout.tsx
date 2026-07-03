@@ -19,8 +19,7 @@ export default function RootLayout() {
             <Stack.Screen name="professional-dashboard" />
             <Stack.Screen name="views" />
             <Stack.Screen name="editor" />
-            {/* Reel uses its own manual slide-in (see reel.tsx), so disable the default. */}
-            <Stack.Screen name="reel" options={{ animation: "none" }} />
+            <Stack.Screen name="reel" />
             <Stack.Screen name="reel-insights" />
           </Stack>
           <StatusBar style="dark" />

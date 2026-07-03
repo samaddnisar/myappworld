@@ -25,7 +25,7 @@ export const VIEWS_REVEAL = {
 /** Reel detail screen slide-in transition. */
 export const REEL_TRANSITION = {
   /** Fraction of screen width the screen starts offset to the right (0.1 = 10%). */
-  startOffset: 0,
+  startOffset: 0.1,
   /** Slide duration (ms). */
   durationMs: 100,
 } as const;

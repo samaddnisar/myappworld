@@ -60,6 +60,7 @@ export function ViewsGraph({ data }: { data: ViewsOverTime }) {
             max={data.max}
             width={chartWidth}
             height={CHART_HEIGHT}
+            gridValues={yLabels}
           />
           <View className="flex-row justify-between mt-2">
             {data.xLabels.map((l) => (
