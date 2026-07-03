@@ -6,7 +6,10 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myappworld",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
+    "androidNavigationBar": {
+      "barStyle": "dark-content"
+    },
     "ios": {
       "icon": "./assets/expo.icon"
     },
@@ -17,7 +20,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.samaddnisar.myappworld"
     },
     "web": {
       "output": "static",
@@ -34,11 +38,18 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ba048554-de09-4a5a-8884-a1946ab44c97"
+      }
     }
   }
 }
