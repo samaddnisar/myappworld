@@ -2,6 +2,7 @@ import { Text, useWindowDimensions, View } from "react-native";
 
 import { colors } from "@/constants/colors";
 import type { ViewsOverTime } from "@/data/reel";
+import { formatCompact } from "@/lib/format";
 
 import { LineChart } from "./LineChart";
 
@@ -35,8 +36,11 @@ export function ViewsGraph({ data }: { data: ViewsOverTime }) {
           className="items-end justify-between"
         >
           {yLabels.map((l) => (
-            <Text key={l} className="text-[13px] text-muted">
-              {l}
+            <Text
+              key={l}
+              className="text-[13px] w-[38px] text-right   text-muted"
+            >
+              {formatCompact(l)}
             </Text>
           ))}
         </View>

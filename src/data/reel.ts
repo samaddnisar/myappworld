@@ -92,30 +92,37 @@ export interface ReelData {
 }
 
 export const reel: ReelData = {
-  handle: "fruitsstoryita",
+  handle: "kittybloomfamily",
   audioLabel: "Original audio",
-  avatar: "https://picsum.photos/seed/fruitsstoryita/80/80",
+  avatar:
+    "https://instagram.flhe2-4.fna.fbcdn.net/v/t51.82787-19/718553823_17892121578521462_9130251135081008297_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.flhe2-4.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gFfr-CANzO3zBBhn4a62Aj-WMQpc-Z7lHFEhvg-A8JJPjAM8YXqinRgAUugwC6-pfI&_nc_ohc=pZ89ifdLvP0Q7kNvwGautzx&_nc_gid=z8heURZx_Zo7I_LUsigWZA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AQAqXwcXvuZC3AM25dOGeXZ_iUWhV-hcxpldHJFz5YXM0g&oe=6A4D88D7&_nc_sid=7a9f4b",
   // Placeholder sample clip — replace with your reel (bundled asset or CDN URL).
   video:
     "https://res.cloudinary.com/demo/video/upload/c_fill,h_1280,w_720/dog.mp4",
   thumbnail:
-    "https://instagram.flhe2-4.fna.fbcdn.net/v/t51.71878-15/726548551_27059362610356862_1337956092542644981_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=MzkyMjE1OTczNDkxMDAxMDQxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=f-DZ3yL7BagQ7kNvwHhKa77&_nc_oc=AdrUzQtueeQnKRBU67g5cYJq_e3NQwVgsympTaOomPwG9166u_FaRsRDuX9dSrQBrgA&_nc_ad=z-m&_nc_cid=1347&_nc_zt=23&_nc_ht=instagram.flhe2-4.fna&_nc_gid=O6hy_MnkiTekXOppjftw1A&_nc_ss=7a22e&oh=00_AQDVu5ebavrJbea-yGIY8r8z_z1Jb93sTfwPbmo55TlRWQ&oe=6A4DA596",
-  likes: "18K",
-  comments: "62K",
-  reposts: "631",
-  shares: "362",
-  saves: "1.1K",
-  viewCount: "1.7M",
+    "https://instagram.flhe2-4.fna.fbcdn.net/v/t51.71878-15/728627530_1542145164109476_173204968567943839_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=MzkyNTczMTg5NjcyNDI4MzM5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=udkg_WJaFUoQ7kNvwEm5Zfq&_nc_oc=AdrzIELVMrnrG_dGJGlyoAJbh5RC2n5pzF7yB7y83PtXVTuEPGtB9nQhfYAFnXnJGCU&_nc_ad=z-m&_nc_cid=1347&_nc_zt=23&_nc_ht=instagram.flhe2-4.fna&_nc_gid=HJylhQ6tqYcsAAWaWu65gQ&_nc_ss=7a22e&oh=00_AQCWhQWN-LL8ZXb_uLRz6euVS2SKK2Nuv-dkF5cR4Iu41w&oe=6A4D9A65",
+  likes: "6.1K",
+  comments: "16",
+  reposts: "351",
+  shares: "208",
+  saves: "207",
+  viewCount: "317K",
   insights: {
-    views: "1,725,859",
-    accountsReached: "1,428,241",
-    avgWatchTime: "28.7s",
-    follows: "907",
+    views: "317,226",
+    accountsReached: "269,646",
+    avgWatchTime: "27.3s",
+    follows: "336",
     viewsOverTime: {
-      max: 400,
-      xLabels: ["2 May", "12 May", "23 May"],
-      thisReel: [0, 330, 342, 348, 352, 355, 357, 359, 361, 363, 365],
-      typicalReel: [0, 150, 162, 170, 176, 181, 186, 190, 194, 197, 200],
+      max: 400000,
+      xLabels: ["17 Jun", "27 Jun", "8 Jul"],
+      thisReel: [
+        0, 220000, 240000, 260000, 280000, 300000, 320000, 340000, 360000,
+        380000, 400000,
+      ],
+      typicalReel: [
+        0, 100000, 110000, 115000, 120000, 130000, 140000, 150000, 200000,
+        250000, 300000,
+      ],
     },
     affectsSubtitle: "Rates are listed in order of importance to reach.",
     affectsViews: [
@@ -126,42 +133,42 @@ export const reel: ReelData = {
     ],
     engagement: {
       actions: [
-        { id: "profile-visits", label: "Profile visits", value: "3,610" },
-        { id: "follows", label: "Follows", value: "907" },
+        { id: "profile-visits", label: "Profile visits", value: "336" },
+        { id: "follows", label: "Follows", value: "331" },
       ],
       interactions: [
-        { id: "likes", label: "Likes", value: "17,918" },
-        { id: "comments", label: "Comments", value: "62" },
-        { id: "reposts", label: "Reposts", value: "631" },
-        { id: "shares", label: "Shares", value: "362" },
-        { id: "saves", label: "Saves", value: "1,142" },
+        { id: "likes", label: "Likes", value: "6,122" },
+        { id: "comments", label: "Comments", value: "16" },
+        { id: "reposts", label: "Reposts", value: "351" },
+        { id: "shares", label: "Shares", value: "208" },
+        { id: "saves", label: "Saves", value: "207" },
       ],
     },
     audience: {
       whoViewed: [
-        { label: "Followers", value: "1.4%", percent: 1.4, tone: "magenta" },
+        { label: "Followers", value: "4.7%", percent: 4.7, tone: "magenta" },
         {
           label: "Non-followers",
-          value: "98.6%",
-          percent: 98.6,
+          value: "95.3%",
+          percent: 95.3,
           tone: "purple",
         },
       ],
       details: {
         Age: [
-          { label: "13-17", value: "6.8%", percent: 6.8 },
-          { label: "18-24", value: "27.8%", percent: 27.8 },
-          { label: "25-34", value: "38.3%", percent: 38.3 },
-          { label: "35-44", value: "16.7%", percent: 16.7 },
-          { label: "45-54", value: "6.8%", percent: 6.8 },
-          { label: "55-64", value: "2.4%", percent: 2.4 },
-          { label: "65+", value: "1.3%", percent: 1.3 },
+          { label: "13-17", value: "16.9%", percent: 16.9 },
+          { label: "18-24", value: "20.1%", percent: 20.1 },
+          { label: "25-34", value: "12.8%", percent: 12.8 },
+          { label: "35-44", value: "12.7%", percent: 12.7 },
+          { label: "45-54", value: "4.8%", percent: 4.8 },
+          { label: "55-64", value: "1.8%", percent: 1.8 },
+          { label: "65+", value: "1.5%", percent: 1.5 },
         ],
         Country: [
-          { label: "USA", value: "29.4%", percent: 29.4 },
-          { label: "Iran", value: "4.6%", percent: 4.6 },
-          { label: "Canada", value: "2.9%", percent: 2.9 },
-          { label: "UK", value: "2.2%", percent: 2.2 },
+          { label: "Canada", value: "19.7%", percent: 19.7 },
+          { label: "Uzbekistan", value: "17.3%", percent: 17.3 },
+          { label: "UK", value: "14.9%", percent: 14.9 },
+          { label: "USA", value: "10.1%", percent: 10.1 },
         ],
         Gender: [
           { label: "Men", value: "36.2%", percent: 36.2 },

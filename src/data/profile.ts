@@ -80,7 +80,7 @@ export const posts: Post[] = [
     image:
       "https://instagram.flhe2-4.fna.fbcdn.net/v/t51.71878-15/728627530_1542145164109476_173204968567943839_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=MzkyNTczMTg5NjcyNDI4MzM5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=udkg_WJaFUoQ7kNvwEm5Zfq&_nc_oc=AdrzIELVMrnrG_dGJGlyoAJbh5RC2n5pzF7yB7y83PtXVTuEPGtB9nQhfYAFnXnJGCU&_nc_ad=z-m&_nc_cid=1347&_nc_zt=23&_nc_ht=instagram.flhe2-4.fna&_nc_gid=HJylhQ6tqYcsAAWaWu65gQ&_nc_ss=7a22e&oh=00_AQCWhQWN-LL8ZXb_uLRz6euVS2SKK2Nuv-dkF5cR4Iu41w&oe=6A4D9A65",
     type: "reel",
-    views: "15.3K",
+    views: "317K",
   },
   {
     id: "p7",
@@ -136,14 +136,14 @@ export const posts: Post[] = [
     image:
       "https://instagram.flhe2-4.fna.fbcdn.net/v/t51.71878-15/726548551_27059362610356862_1337956092542644981_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=MzkyMjE1OTczNDkxMDAxMDQxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=f-DZ3yL7BagQ7kNvwHhKa77&_nc_oc=AdrUzQtueeQnKRBU67g5cYJq_e3NQwVgsympTaOomPwG9166u_FaRsRDuX9dSrQBrgA&_nc_ad=z-m&_nc_cid=1347&_nc_zt=23&_nc_ht=instagram.flhe2-4.fna&_nc_gid=O6hy_MnkiTekXOppjftw1A&_nc_ss=7a22e&oh=00_AQDVu5ebavrJbea-yGIY8r8z_z1Jb93sTfwPbmo55TlRWQ&oe=6A4DA596",
     type: "reel",
-    views: "2.1M",
+    views: "2.2M",
   },
   {
     id: "p15",
     image:
       "https://instagram.flhe2-4.fna.fbcdn.net/v/t51.71878-15/723942008_1744022343260440_238484158440631503_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzkyMTQyMjkwNDQ5NzMzMjQ5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=nsDAurHIDT4Q7kNvwHnwDfC&_nc_oc=AdrkcMJYQQWgaBT6MZzy-5XUArFa96FOa9B1c7YrZqV9e10LaIGx0QxKgtLW-U6eZXw&_nc_ad=z-m&_nc_cid=1347&_nc_zt=23&_nc_ht=instagram.flhe2-4.fna&_nc_gid=O6hy_MnkiTekXOppjftw1A&_nc_ss=7a22e&oh=00_AQDuE5UgpYwbgkLujYwBNv4koKFo4iWAnQLUFsUScf_GvA&oe=6A4DAF67",
     type: "reel",
-    views: "1.7M",
+    views: "1.8M",
   },
   {
     id: "p16",

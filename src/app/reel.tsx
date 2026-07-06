@@ -16,7 +16,7 @@ export default function ReelScreen() {
   const { data } = useAppData();
   const reel = data.reel;
 
-  const [muted, setMuted] = useState(false);
+  const [muted, setMuted] = useState(true);
   const [videoReady, setVideoReady] = useState(false);
 
   // Prefer the bundled assets/videos/reel.mp4 (instant, offline); fall back to
@@ -24,7 +24,7 @@ export default function ReelScreen() {
   const videoSource = getBundledReel() ?? reel.video;
   const player = useVideoPlayer(videoSource, (p) => {
     p.loop = true;
-    p.muted = false;
+    p.muted = true;
     p.play();
   });
 
